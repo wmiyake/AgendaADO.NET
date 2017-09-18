@@ -1,0 +1,12 @@
+C:\Users\Wellington Miyake\source\repos\CSharpintermediario\AgendaADONET\obj\Debug\AgendaADONET.csprojResolveAssemblyReference.cache
+C:\Users\Wellington Miyake\source\repos\CSharpintermediario\AgendaADONET\obj\Debug\AgendaADONET.frmAgenda.resources
+C:\Users\Wellington Miyake\source\repos\CSharpintermediario\AgendaADONET\obj\Debug\AgendaADONET.Properties.Resources.resources
+C:\Users\Wellington Miyake\source\repos\CSharpintermediario\AgendaADONET\obj\Debug\AgendaADONET.csproj.GenerateResource.Cache
+C:\Users\Wellington Miyake\source\repos\CSharpintermediario\AgendaADONET\obj\Debug\AgendaADONET.csproj.CoreCompileInputs.cache
+C:\Users\Wellington Miyake\source\repos\CSharpintermediario\AgendaADONET\bin\Debug\AgendaADONET.exe.config
+C:\Users\Wellington Miyake\source\repos\CSharpintermediario\AgendaADONET\bin\Debug\AgendaADONET.exe
+C:\Users\Wellington Miyake\source\repos\CSharpintermediario\AgendaADONET\bin\Debug\AgendaADONET.pdb
+C:\Users\Wellington Miyake\source\repos\CSharpintermediario\AgendaADONET\obj\Debug\AgendaADONET.exe
+C:\Users\Wellington Miyake\source\repos\CSharpintermediario\AgendaADONET\obj\Debug\AgendaADONET.pdb
+C:\Users\Wellington Miyake\source\repos\CSharpintermediario\AgendaADONET\obj\Debug\AgendaADONET.frmIncluirAlterarContato.resources
+C:\Users\Wellington Miyake\source\repos\CSharpintermediario\AgendaADONET\bin\Debug\MySql.Data.dll
