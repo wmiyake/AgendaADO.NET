@@ -38,7 +38,8 @@ namespace AgendaADONET.DAO
             comando.CommandType = CommandType.Text;
             comando.CommandText = "DELETE FROM CONTATOS WHERE ID = @id";
             //comando.Parameters.Add(new SqlParameter("@id", id));
-            comando.Parameters.Add(new MySqlParameter("@id", id));
+            //comando.Parameters.Add(new MySqlParameter("@id", id));
+            comando.Parameters.Add(DAOUtils.GetParameter("@id", id));
             comando.ExecuteNonQuery();
         }
 
@@ -51,9 +52,12 @@ namespace AgendaADONET.DAO
             //comando.Parameters.Add(new SqlParameter("@nome", contato.Nome));
             //comando.Parameters.Add(new SqlParameter("@email", contato.Email));
             //comando.Parameters.Add(new SqlParameter("@telefone", contato.Telefone));
-            comando.Parameters.Add(new MySqlParameter("@nome", contato.Nome));
-            comando.Parameters.Add(new MySqlParameter("@email", contato.Email));
-            comando.Parameters.Add(new MySqlParameter("@telefone", contato.Telefone));
+            //comando.Parameters.Add(new MySqlParameter("@nome", contato.Nome));
+            //comando.Parameters.Add(new MySqlParameter("@email", contato.Email));
+            //comando.Parameters.Add(new MySqlParameter("@telefone", contato.Telefone));
+            comando.Parameters.Add(DAOUtils.GetParameter("@nome", contato.Nome));
+            comando.Parameters.Add(DAOUtils.GetParameter("@email", contato.Email));
+            comando.Parameters.Add(DAOUtils.GetParameter("@telefone", contato.Telefone));
             comando.ExecuteNonQuery();
         }
 
@@ -67,10 +71,14 @@ namespace AgendaADONET.DAO
             //comando.Parameters.Add(new SqlParameter("@email", contato.Email));
             //comando.Parameters.Add(new SqlParameter("@telefone", contato.Telefone));
             //comando.Parameters.Add(new SqlParameter("@id", contato.Id));
-            comando.Parameters.Add(new MySqlParameter("@nome", contato.Nome));
-            comando.Parameters.Add(new MySqlParameter("@email", contato.Email));
-            comando.Parameters.Add(new MySqlParameter("@telefone", contato.Telefone));
-            comando.Parameters.Add(new MySqlParameter("@id", contato.Id));
+            //comando.Parameters.Add(new MySqlParameter("@nome", contato.Nome));
+            //comando.Parameters.Add(new MySqlParameter("@email", contato.Email));
+            //comando.Parameters.Add(new MySqlParameter("@telefone", contato.Telefone));
+            //comando.Parameters.Add(new MySqlParameter("@id", contato.Id));
+            comando.Parameters.Add(DAOUtils.GetParameter("@nome", contato.Nome));
+            comando.Parameters.Add(DAOUtils.GetParameter("@email", contato.Email));
+            comando.Parameters.Add(DAOUtils.GetParameter("@telefone", contato.Telefone));
+            comando.Parameters.Add(DAOUtils.GetParameter("@id", contato.Id));
             comando.ExecuteNonQuery();
         }
     }
